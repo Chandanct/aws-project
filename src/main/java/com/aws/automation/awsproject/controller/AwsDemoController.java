@@ -14,4 +14,10 @@ public class AwsDemoController {
 		return "Successfully Run the application...";
 	}
 	
+	@GetMapping("/test")
+	public String test() {
+		
+		return "Test Run the application...";
+	}
+	
 }
